@@ -1,0 +1,71 @@
+
+h1 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+background-color: blueviolet;
+width: 270px;
+height: 40px;
+text-align: center;
+margin: 1% auto;
+}
+
+.subtitulos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#imagen {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.listadoseries {
+    display: flex;
+    background-color: coral;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.serie {
+    background-color:black;
+	width: 170px;
+	height: 70px;
+	margin: 10px;
+	font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.listadopeliculas {
+    display: flex;
+    background-color:cornflowerblue;
+    justify-content: center;
+    height: 120px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.pelicula {
+    background-color:black;
+	width: 160px;
+	height: 105px;
+	margin: 10px;
+	font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.gustos {
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+

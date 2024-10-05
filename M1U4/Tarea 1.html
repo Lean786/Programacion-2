@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        Transporte = parseInt(prompt('Ingrese la distancia que desea recorrer'));
+
+        if (Transporte >= 0 && Transporte <= 1000) {
+            document.write('Usted debe ir a pie.');
+        } else if (Transporte >= 1001 && Transporte <= 10000) {
+            document.write('Usted debe viajar en bicicleta.');
+        } else if (Transporte >= 10001 && Transporte <= 30000) {
+            document.write('Usted debe viajar en colectivo.');
+        } else if (Transporte >= 30001 && Transporte <= 100000) {
+            document.write('Usteded debe ir en auto.');
+        } else if (Transporte >= 100001) {
+            document.write('Usted debe viajar en avión.')
+        }
+        console.log(`Distancias convenientes para cada medio de transporte.`);
+    </script>
+</body>
+</html>
